@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<style>
+    #counterDiv{
+        /* border: 1px solid teal; */
+        margin-top: 200px;
+        margin: auto;
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background: rgba(84, 214, 79, 0.842);  
+        color: rgb(128, 4, 4);
+        border-radius: 20px;
+    }
+    #counterButton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .addBtn {
+        padding: 10px 20px;
+        border-radius: 10px; 
+        color: aliceblue;
+        border: none;
+        background: rgb(103, 103, 247);
+        font-weight: bolder;
+    }
+
+    .reduceBtn{
+         padding: 10px 20px;
+        border-radius: 10px; 
+        color: aliceblue;
+        border: none;
+        background: rgb(240, 62, 62);
+        font-weight: bolder;
+    }
+    
+</style>
+<body>
+    <div id="counterDiv">
+        <h1 id="counter">Counter : 0</h1>   
+        <div id="counterButton">
+            <button class="addBtn" onclick="add()">ADD</button>
+            <button class="reduceBtn" onclick="reduce()">REDUCE</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
