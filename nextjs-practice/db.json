@@ -4,6 +4,41 @@
       "id": 1,
       "title": "json-server",
       "status": false
+    },
+    {
+      "title": "learn todo",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "learning nextjs",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "learning react dev tools",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "learning javascript",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "learning mearn",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "learn react",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "learn redux",
+      "status": false,
+      "id": 8
     }
   ]
 }
